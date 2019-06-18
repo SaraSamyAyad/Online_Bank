@@ -257,7 +257,7 @@ public class login extends javax.swing.JFrame {
             //connect to server
              
          Socket c = new Socket(ip, 1111);
-                 JOptionPane.showMessageDialog(null, "d5lt");
+                // JOptionPane.showMessageDialog(null, "d5lt");
             DataOutputStream dos = new DataOutputStream(c.getOutputStream());
             DataInputStream dis = new DataInputStream(c.getInputStream());
             
