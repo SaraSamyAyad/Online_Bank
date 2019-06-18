@@ -97,7 +97,7 @@ public class server extends javax.swing.JFrame {
       
         try
         {
-            JOptionPane.showMessageDialog(null, s);
+           // JOptionPane.showMessageDialog(null, s);
          /*   if(s.equals("server"))
             {
                 
@@ -120,7 +120,7 @@ public class server extends javax.swing.JFrame {
                 
                new Thread(ch);
               //  t.start();
-                  JOptionPane.showMessageDialog(null, s);
+               //   JOptionPane.showMessageDialog(null, s);
              if(s.equals("server"))
              {
                  JOptionPane.showMessageDialog(null, 1);

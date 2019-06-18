@@ -20,7 +20,7 @@ import java.util.logging.Logger;
        try{
            
            Class.forName("com.mysql.cj.jdbc.Driver");
-               con=DriverManager.getConnection("jdbc:mysql://localhost/client","root","");
+         con=DriverManager.getConnection("jdbc:mysql://localhost/client?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC","root","");
         //   con=DriverManager.getConnection("jdbc:mysql://sql12.freemysqlhosting.net:3306/sql12264169","sql12264169","AauQZCE3bU");
         //   st=con.createStatement();
             // return con;
